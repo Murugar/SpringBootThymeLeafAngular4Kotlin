@@ -1,2 +1,2 @@
 # SpringBootThymeLeafAngular4Kotlin
-Spring Boot ThymeLeaf Angular 4.x Kotlin
+Spring Boot ThymeLeaf 3.x Angular 4.x Kotlin
