@@ -5,11 +5,11 @@
 
     <groupId>com.iqmsoft.boot.thymeleaf3.angular4.kotlin</groupId>
     <artifactId>SpringBootThymeLeafAngular4Kotlin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>SpringBootThymeLeafAngular4Kotlin</name>
-    <description>Spring Boot Kotlin Thymeleaf3 BootStrap3 Angularjs 4</description>
+    <description>Spring Boot Kotlin Thymeleaf3 BootStrap3 AngularJS 4.x</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,10 +1,10 @@
 {
   "/welcome": {
-    "target": "http://localhost:8080",
+    "target": "http://localhost:8080/rest/welcome",
     "secure": false
   },
   "/json": {
-    "target": "http://localhost:8080",
+    "target": "http://localhost:8080/rest/json",
     "secure": false
   }
 }

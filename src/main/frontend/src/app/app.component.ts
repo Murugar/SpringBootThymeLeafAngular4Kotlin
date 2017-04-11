@@ -10,11 +10,12 @@ import {Http} from "@angular/http";
 })
 export class AppComponent {
     user = {id: 1, nick: "Jackie"};
+    
+    private entity_url = 'http://localhost:8080/rest/json';
 
     constructor(private userService: UserService, http: Http) {
         console.log("init AppComponent");
-        // remote service
-        // http.get('/json').subscribe(result => this.user = result.json());
+        http.get(this.entity_url).subscribe(result => this.user = result.json());
     }
 
     echo(): string {

@@ -11,11 +11,11 @@ class PortController {
     @GetMapping("/")
     fun index() = "index"
 
-    @GetMapping("/welcome")
+    @GetMapping("/rest/welcome")
     @ResponseBody
     fun welcome() = "welcome"
 
-    @GetMapping("/json")
+    @GetMapping("/rest/json")
     @ResponseBody
     fun jsonData(): Map<String, Any> {
         return mapOf("id" to 1, "nick" to "Jackie from Spring Boot");
